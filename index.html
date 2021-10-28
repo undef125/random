@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title></title>
+        <meta name="description" content="" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="style.css" />
+        <script src="app.js" defer></script>
+    </head>
+    <body>
+        <header class="header-main">
+            <ul class="head">
+                <h3>Base64 <span class="encode active">Encoder</span> / <span class="decode inactive">Decoder</span></h3>
+            </ul>
+        </header>
+        <div class="input-section">
+            <div class="container">
+                <textarea type="text" id="string-encode"> </textarea>
+                <div class="btn-num">
+                    <input type="number" placeholder="Times To (Default=1)" id="timesto"/>
+                    <button class="btn-encode">Encode</button>
+                </div>
+            </div>
+        </div>
+        <div class="output-section">
+            <h2 style=" text-align: center;">OUTPUT</h2>
+            <div class="container">
+                <textarea type="text" id="string-decode"> </textarea>
+                <div class="cpbtn-container"><button class="btn-copy-output">Copy Output</button></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
